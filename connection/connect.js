@@ -7,11 +7,21 @@ const connect = sql.createConnection({
   // password: '',
   // database: 'noteapp'
 
-  host: "sql12.freemysqlhosting.net",
-  user: "sql12303832",
-  password: "n1347aF3R4",
-  database: "sql12303832",
+  host: "remotemysql.com",
+  user: "VwT8jk6TuJ",
+  password: "ErQUlHR8Jl",
+  database: "VwT8jk6TuJ",
 })
+
+// Username: VwT8jk6TuJ
+
+// Database name: VwT8jk6TuJ
+
+// Password: ErQUlHR8Jl
+
+// Server: remotemysql.com
+
+// Port: 3306
 
 connect.connect(err => {
   if (err) {
